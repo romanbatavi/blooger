@@ -14,6 +14,10 @@ a {
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+ul {
+    list-style-type: none;
+}
 /* End Global Class */
 
 /* Navs */
@@ -29,9 +33,24 @@ a {
     justify-content: space-between;
 }
 
+.nav .nav-items {
+    display: flex;
+    margin: 0;
+}
+
+.nav .nav-items .nav-link {
+    padding: 1.6rem 1rem;
+    font-size: 1.1rem;
+    position: relative;
+}
+
 .nav .nav-brand a {
     font-size: 1.6rem;
     padding: 1rem 0;
-    text-decoration: none;
+    display: block;
+}
+
+.nav .social {
+    padding: 1.4rem 0;
 }
 /* End Navs */
